@@ -1,5 +1,5 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Index from "./pages/Index.jsx";
+import CloneList from "./pages/CloneList.jsx";
 import CreateClone from "./pages/CreateClone.jsx";
 import Settings from "./pages/Settings.jsx";
 import Preview from "./pages/Preview.jsx";
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route exact path="/" element={<CloneList />} />
         <Route exact path="/create-clone" element={<CreateClone />} />
         <Route exact path="/settings" element={<Settings />} />
         <Route exact path="/preview" element={<Preview />} />
