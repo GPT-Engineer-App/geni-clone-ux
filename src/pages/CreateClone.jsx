@@ -2,7 +2,7 @@ import { Box, Button, FormControl, FormLabel, Input, Textarea, Select, VStack } 
 
 const CreateClone = () => {
   return (
-    <Box p={4}>
+    <Box p={4} position="relative">
       <VStack spacing={4} align="stretch">
         <FormControl id="name">
           <FormLabel>Name</FormLabel>
@@ -32,7 +32,7 @@ const CreateClone = () => {
           <FormLabel>Upload Voice samples</FormLabel>
           <Input type="file" multiple />
         </FormControl>
-        <Button colorScheme="teal" type="submit">Create Clone</Button>
+        <Button colorScheme="teal" type="submit" position="absolute" top="4" right="4">Create Clone</Button>
       </VStack>
     </Box>
   );

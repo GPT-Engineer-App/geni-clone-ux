@@ -9,7 +9,7 @@ const Navbar = () => {
         <Flex alignItems={"center"}>
           <RouterLink to="/">
             <Button as={Link} colorScheme="teal" variant="ghost" mr={4}>
-              Home
+              AI Clones
             </Button>
           </RouterLink>
           <RouterLink to="/create-clone">
